@@ -1,0 +1,14 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+
+
+# trailing-whitespace : 파일 끝에 불필요한 공백 감지하고 제거
+
+# end-of-file-fixer : 모든 파일이 새 줄로 끝나도록 보장
+
+# check0yaml : yaml 파일의 문법 검사
